@@ -2,13 +2,13 @@
 
 # Creates the standard sourcesets of a java application in the passed location
 # Creates:
-#  src
-#    main
-#      java
-#      resources
-#    test
-#      java
-#      resources
+#  src/
+#    main/
+#      java/
+#      resources/
+#    test/
+#      java/
+#      resources/
 
 location="."
 if [ $# -eq 1 ] 
